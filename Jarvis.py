@@ -84,27 +84,27 @@ if __name__== "__main__":
             webbrowser.open("instagram.com")
 
         elif 'open vs code' in query:
-            codePath = "F:\\Microsoft VS Code\\Code.exe"
+            codePath = "/give the path from your pc"
             os.startfile(codePath)
 
         elif 'open whatsapp' in query:
-            WhatsappPath = "C:\\Users\\HP\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
+            WhatsappPath = "/give the path from your pc"
             os.startfile(WhatsappPath)
 
         elif 'open chrome' in query:
-            chromePath = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"                 
+            chromePath = "/give the path from your pc"                 
             os.startfile(chromePath)
         
         elif 'open ms word' in query:
-            wordPath = "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE"
+            wordPath = "/give the path from your pc"
             os.startfile(wordPath)
 
         elif 'open zoom' in query:
-            zoomPath = "C:\\Users\\HP\\AppData\\Roaming\\Zoom\bin\\Zoom.exe"
+            zoomPath = "/give the path from your pc"
             os.startfile(zoomPath)
 
         elif 'open microsoft' in query:
-            edgePath = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+            edgePath = "/give the path from your pc"
             os.startfile(edgePath)
 
         elif 'google search' in query:
